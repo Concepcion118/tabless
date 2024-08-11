@@ -1,0 +1,99 @@
+body 
+{
+    font-family: Roboto;
+    padding: 50px;
+   
+}
+.design
+{
+    background-color: rgb(255, 204, 212);
+}
+h1
+{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+   
+    
+}
+table td
+{
+    text-align: center;
+    border: 1px solid rgb(146, 146, 146);
+    border-bottom: 1px solid rgb(146, 146, 146);
+    padding: 20px;
+   
+}   
+
+.third-1st tr td
+{
+    background-color: yellow;
+}
+.third-2nd tr td
+{
+    background-color: white;
+}
+
+.Fourth-1st tr td
+{
+    background-color: white;
+}
+.Fourth-2nd tr td
+{
+    background-color: white;
+}
+
+table
+{
+    
+    box-shadow:0 0 20px black;
+
+    border-bottom: 10px solid blue;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: medium;
+    
+}
+
+.Semester tbody tr th
+{
+    background-color: rgb(202, 199, 199);
+}
+
+.Semester td
+{
+    font-weight: bold;
+   
+}
+.Semester thead tr
+{
+    background-color: skyblue;
+}
+
+tr{
+    background-color: lightblue;
+    
+}
+th{
+    text-align: center;
+    border: 1px solid rgb(146, 146, 146);
+    border-bottom: 1px solid rgb(146, 146, 146);
+    padding: 20px;
+    font-weight: bold;
+ 
+}
+thead td:nth-child(1)
+{
+    
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+}
+tr:hover
+{
+    background-color: rgb(95, 250, 142);
+    transform: scale(1.02);
+    box-shadow:0 0 20px black;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
