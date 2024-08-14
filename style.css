@@ -1,6 +1,6 @@
 body 
 {
-    font-family: Roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 50px;
    
 }
@@ -21,7 +21,7 @@ table td
     text-align: center;
     border: 1px solid rgb(146, 146, 146);
     border-bottom: 1px solid rgb(146, 146, 146);
-    padding: 20px;
+    padding: 10px;
    
 }   
 
@@ -47,33 +47,35 @@ table
 {
     
     box-shadow:0 0 20px black;
-
+    width: 65%;
     border-bottom: 10px solid blue;
     border-collapse: collapse;
     margin: 50px auto;
     font-size: medium;
     
 }
-
+/*For the */
 .Semester tbody tr th
 {
     background-color: rgb(202, 199, 199);
 }
-
+/*For bolding texts*/
 .Semester td
 {
     font-weight: bold;
    
 }
+/*For defaulting the color of thead*/
 .Semester thead tr
 {
     background-color: skyblue;
 }
-
+/*For the background color fot the tr*/
 tr{
     background-color: lightblue;
     
 }
+/*For Centering texts*/
 th{
     text-align: center;
     border: 1px solid rgb(146, 146, 146);
@@ -82,12 +84,14 @@ th{
     font-weight: bold;
  
 }
+/*For the Header color*/
 thead td:nth-child(1)
 {
     
     font-weight: bold;
     -webkit-text-fill-color: white;
 }
+/*For the Design in hovering every rows*/
 tr:hover
 {
     background-color: rgb(95, 250, 142);
